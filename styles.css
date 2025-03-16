@@ -16,7 +16,7 @@
 #calc-screen {
     width: 70%;
     height: 18%;
-    border: 1px solid black;
+    border: 3px solid black;
     margin-top: 10%;
     border-radius: 5px;
     padding: 2%;
@@ -39,7 +39,7 @@
 
 #result {
     margin-bottom: 5%;
-    margin-top: 3%;
+    margin-top: 0%;
 }
 
 #calc-digits {
@@ -84,18 +84,29 @@
 
 #calc-clear {
     margin-top: 12%;
-    padding: 2%;
+    padding: 3%;
     width: 60%;
     background-color: white;
     border: 1px solid black;
     border-radius: 5px;
+    
 }
 
 button {
     background-color: white;
+    font-weight: 300;
 }
 
 button:hover {
     opacity: 50%;
     cursor: pointer;
+}
+
+h2, h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 0;
 }
